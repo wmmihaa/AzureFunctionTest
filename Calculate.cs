@@ -15,7 +15,7 @@ namespace MyFunction
         {
             log.Info("C# HTTP trigger function processed a request.");
             
-            return req.CreateResponse(HttpStatusCode.OK, "Hello Nodemi");
+            return req.CreateResponse(HttpStatusCode.OK, "Hello Mikael");
         }
 
     }
