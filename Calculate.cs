@@ -13,7 +13,8 @@ namespace MyFunction
         [FunctionName("Calculate")]
         public static async Task<HttpResponseMessage> Run([HttpTrigger(AuthorizationLevel.Function, "get", "post", Route = null)]HttpRequestMessage req, TraceWriter log)
         {
-            log.Info("C# HTTP trigger function processed a request.");
+            log.Info(".");
+
             
             return req.CreateResponse(HttpStatusCode.OK, "Hello Mikael");
         }
